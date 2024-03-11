@@ -23,9 +23,9 @@ http://code.google.com/terms.html
 
 ```html
   <div class="message">{{_message}}</div>
-  ```
+```
   for
-  ```html
+```html
   <div class="message">{{_message:text}}</div>
 ```
   in `error.gtl`
