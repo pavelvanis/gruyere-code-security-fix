@@ -20,13 +20,14 @@ http://code.google.com/terms.html
 #### Reflected XSS
 
 - change
-  ```html
+
+```html
   <div class="message">{{_message}}</div>
   ```
   for
   ```html
   <div class="message">{{_message:text}}</div>
-  ```
+```
   in `error.gtl`
 
 #### Stored XSS
